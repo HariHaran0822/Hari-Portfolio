@@ -1,0 +1,25 @@
+@import "../../Themes/viewport.scss";
+
+.contact {
+  display: flex;
+  justify-content: center;
+  .contact-wrapper {
+    display: flex;
+    gap: 2rem;
+    border: 1px solid grey;
+    padding: 2rem;
+    @include tablet {
+      flex-wrap: wrap;
+    }
+    .combos {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      font-weight: 600;
+
+      @include tablet {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

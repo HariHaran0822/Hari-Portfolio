@@ -1,0 +1,43 @@
+@import "../../Themes/viewport.scss";
+@import "../../Themes/colors.modules.scss";
+
+.exp {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  .experience {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    border: 1px solid gray;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    .exp-head {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  }
+  .experience-2 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: 1px solid gray;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    @include tablet {
+      gap: 3rem;
+    }
+    .exp-head-2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  }
+}

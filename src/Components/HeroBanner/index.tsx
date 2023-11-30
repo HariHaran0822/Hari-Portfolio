@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "../view-wrapper";
 import "./heroBanner.scss";
-import BannerImage from "../../../public/image/banner.png";
+import BannerImage from "../../../public/image/banner.jpg";
 import Image from "next/image";
 import GitHub from "../../../public/image/github.png";
 import LinkedIn from "../../../public/image/linkedin.png";

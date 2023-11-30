@@ -1,9 +1,6 @@
 @import "../../Themes/viewport.scss";
 @import "../../Themes/colors.modules.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
-
 .hero-banner {
   display: flex;
   @include tablet {
@@ -41,11 +38,9 @@
     }
     > h1 {
       font-size: 2rem;
-      // font-family: "Trade Winds", sans-serif;
     }
     > h3 {
       color: gray;
-      // font-family: "Monoton", sans-serif;
     }
     @include tablet {
       width: 100%;

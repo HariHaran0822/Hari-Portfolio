@@ -1,5 +1,4 @@
 @import "../../Themes/viewport.scss";
-@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
 .nav {
   .navbar {
     width: 100%;
@@ -10,7 +9,6 @@
     align-items: center;
     .logo {
       > h2 {
-        font-family: "Smooch", cursive;
         font-weight: 600;
         font-size: 2rem;
       }

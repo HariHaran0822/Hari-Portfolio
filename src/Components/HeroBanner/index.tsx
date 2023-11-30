@@ -17,7 +17,7 @@ export const HeroBanner = () => {
           </div>
         </div>
         <div className="hero-banner-text">
-          <p>Hello I'm</p>
+          <p>Hello Im</p>
           <h1>Hari Haran</h1>
           <h3 style={{ color: "#gray" }}>Frontend Developer</h3>
           <div className="hero-banner-buttons">

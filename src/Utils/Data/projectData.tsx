@@ -30,6 +30,6 @@ export const projectsData = {
     image: OrderCirclednaImage,
     organization: "Prenetics",
     object_fit: "contain",
-    buildBy: "Pure React ,Sass, Payment Api's",
+    buildBy: "React ,Sass, Payment Api's",
   },
 };

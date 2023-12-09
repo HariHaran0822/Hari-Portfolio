@@ -49,7 +49,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             fontWeight: 600,
           }}
         >
-          Build using: <p style={{ color: "black" }}>{buildBy}</p>{" "}
+          {/* Build using: */}
+          <p style={{ color: "black" }}>{buildBy}</p>{" "}
         </div>
 
         <Link href={link}>

@@ -7,6 +7,7 @@ import { Projects } from "@/Components/Projects";
 import { NavBar } from "@/Components/nav";
 import React from "react";
 import { Footer } from "@/Components/Footer";
+import Reveal from "@/Common/Reveal";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       <main style={{ backgroundColor: "white", color: "black" }}>
         <NavBar />
         <HeroBanner />
+
         <AboutMe />
+
         <ExperienceSection />
         <Projects />
         <ContactMe />
